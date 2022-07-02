@@ -1,0 +1,26 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">-->
+<!--    <listeners>-->
+<!--        <listener class-name= "Listeners.listener"></listener>-->
+<!--    </listeners>-->
+<!--    <parameter name="URL" value="https://classic.freecrm.com/login.cfm"></parameter>-->
+<!--    <test verbose="2" preserve-order="true" name="C:/Users/abdo/Desktop/selenium-webdriver-java-course-c4.3/Testcase/src">-->
+<!--        <classes>-->
+<!--        <class name="testlogin.homePage">-->
+<!--       <methods>-->
+<!--            <include name="clickContactTests"/>-->
+<!--            <include name="clickdealsTests"/>-->
+<!--            <include name="clickTasksTests"/>-->
+<!--        </methods>-->
+<!--       </class>-->
+<!--        <class name="testlogin.login">-->
+<!--            <methods>-->
+<!--                <include name="litleTest"/>-->
+<!--                <include name="urlCheck"/>-->
+<!--                <include name="logoTest"/>-->
+<!--                <include name="Logintest"/>-->
+<!--            </methods>-->
+<!--        </class>-->
+<!--    </classes>-->
+<!--</test>-->
+<!--</suite>-->

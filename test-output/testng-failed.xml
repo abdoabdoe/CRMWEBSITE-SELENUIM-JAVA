@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="https://classic.freecrm.com/login.cfm"/>
+  <listeners>
+    <listener class-name="Listeners.listener"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/abdo/Desktop/selenium-webdriver-java-course-c4.3/Testcase/src(failed)">
+    <classes>
+      <class name="testlogin.login">
+        <methods>
+          <include name="logoTest"/>
+          <include name="urlCheck"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Logintest"/>
+        </methods>
+      </class> <!-- testlogin.login -->
+      <class name="testlogin.homePage">
+        <methods>
+          <include name="clickTasksTests"/>
+          <include name="clickdealsTests"/>
+          <include name="login"/>
+          <include name="clickContactTests"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testlogin.homePage -->
+    </classes>
+  </test> <!-- C:/Users/abdo/Desktop/selenium-webdriver-java-course-c4.3/Testcase/src(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
